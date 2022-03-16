@@ -1,1 +1,0 @@
-token_bot = 5117555538:AAFs3lXGx8ilgAitAdbQxze_Ugp2rKDRb5I
