@@ -5,3 +5,5 @@ from config_data import config
 
 load_dotenv()
 bot = TeleBot(token=config.BOT_TOKEN)
+
+a = 2
