@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66950406-2e05-4930-b7b6-e2f7b8c33a93" name="Changes" comment="Added .env">
-      <change afterPath="$PROJECT_DIR$/.env.template" afterDir="false" />
+    <list default="true" id="66950406-2e05-4930-b7b6-e2f7b8c33a93" name="Changes" comment="Added .env.template">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/reply/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705411807365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added .env.template">
+      <created>1705476358336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705476358336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +255,7 @@
     <MESSAGE value="Created loader.py" />
     <MESSAGE value="Created config_data, default_handlers, utils." />
     <MESSAGE value="Added .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .env" />
+    <MESSAGE value="Added .env.template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .env.template" />
   </component>
 </project>
