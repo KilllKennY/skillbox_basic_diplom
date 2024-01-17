@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66950406-2e05-4930-b7b6-e2f7b8c33a93" name="Changes" comment="Complete sample.">
-      <change afterPath="$PROJECT_DIR$/handlers/custom_handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/custom_handlers/survey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/reply/contact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/states/contact_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+    <list default="true" id="66950406-2e05-4930-b7b6-e2f7b8c33a93" name="Changes" comment="Created a states.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config_data/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/default_handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default_handlers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/default_handlers/echo.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default_handlers/echo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/default_handlers/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default_handlers/help.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/default_handlers/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/default_handlers/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/reply/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/reply/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/set_bot_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/set_bot_commands.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705477014801</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created a states.">
+      <created>1705484545102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705484545102</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +265,7 @@
     <MESSAGE value="Added .env" />
     <MESSAGE value="Added .env.template" />
     <MESSAGE value="Complete sample." />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete sample." />
+    <MESSAGE value="Created a states." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a states." />
   </component>
 </project>
