@@ -42,10 +42,10 @@ def get_contact(message: Message) -> None:
     if message.content_type == 'contact':
         with bot.retrieve_data(message.from_user.id, message.chat.id) as data:
             data['phone_number'] = message.contact.phone_number
+            text = f'Спасибо за предоставленные данные: \n' \
+                    f'Имя - {data["name"]} \n Страна - {data["country"]} ' \
+                    f'\n Номер телефона - {data["phone_number"]}'
 
-            text = f'Спасибо за прежоставленные данные: \n' \
-                    f'Имя - {data["name"]} \nСтрана - {data["country"]} ' \
-                    f'\nНомер телефона - {data["phone_number"]}'
-            bot.send_message(message.from_user.id, '123')
+            bot.send_message(message.from_user.id, text, parse_mode=html)
     else:
         bot.send_message(message.from_user.id, 'Чтобы отправить данные, нажмите кнопку.')
